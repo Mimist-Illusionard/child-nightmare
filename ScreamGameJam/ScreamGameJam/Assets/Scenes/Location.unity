@@ -6955,7 +6955,7 @@ GameObject:
   - component: {fileID: 489466857}
   m_Layer: 0
   m_Name: LightSwitcher
-  m_TagString: Untagged
+  m_TagString: Interactive
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31539,7 +31539,7 @@ PrefabInstance:
     - target: {fileID: 4628086354687938255, guid: 0307788cf3426ec45b1097b55fd4ff5a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.49
+      value: 1.05
       objectReference: {fileID: 0}
     - target: {fileID: 4628086354687938255, guid: 0307788cf3426ec45b1097b55fd4ff5a,
         type: 3}
@@ -36594,7 +36594,7 @@ GameObject:
   - component: {fileID: 1875892197}
   m_Layer: 0
   m_Name: TvSwitcher
-  m_TagString: Untagged
+  m_TagString: Interactive
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -15,7 +15,7 @@ public sealed class Player : MonoBehaviour
     {
         _characterController = GetComponent<CharacterController>();
 
-        _interactLogic = new InteractLogic(gameObject, _rayDistance);
+        _interactLogic = new InteractLogic(GetComponentInChildren<Camera>().gameObject, _rayDistance);
         _movement = new Movement(gameObject, _characterController, _movementSpeed);
     }
 
