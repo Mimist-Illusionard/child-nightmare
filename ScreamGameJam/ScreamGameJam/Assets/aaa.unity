@@ -1282,6 +1282,7 @@ MonoBehaviour:
   player: {fileID: 2093967635}
   Sens: 1
   Speed: 0.1
+  CumBlock: 45
 --- !u!1 &1725868845
 GameObject:
   m_ObjectHideFlags: 0

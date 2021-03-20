@@ -7,6 +7,8 @@ public class Move : MonoBehaviour
     public GameObject player;
     public float Sens;
     public float Speed;
+    [Range(0,90)]
+    public float CumBlock;
 
     private float x;
     private float y;
@@ -49,6 +51,7 @@ public class Move : MonoBehaviour
         yM += Input.GetAxis("Mouse X");
         xM *= Sens;
         yM *= Sens;
+        xM = Mathf.Clamp(xM, -CumBlock, CumBlock);
         transform.localRotation = Quaternion.Euler(xM, 0, 0);
         player.transform.rotation = Quaternion.Euler(0, yM, 0);
     }
