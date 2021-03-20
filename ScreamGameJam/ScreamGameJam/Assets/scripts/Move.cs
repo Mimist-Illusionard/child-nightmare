@@ -37,7 +37,7 @@ public class Move : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.E))
                 {
                     Debug.DrawRay(gameObject.transform.position, transform.forward * hit.distance, Color.green,1);
-                    hit.collider.gameObject.GetComponent<IEnteract>().Intr();
+                    hit.collider.gameObject.GetComponent<IInteractive>().InteractLogic();
                 }
             }
         }
