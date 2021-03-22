@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 
 
-public class TvSwitcher : Interactive
+public class TvSwitcher : InteractiveItem
 {
-    [SerializeField] private Interactive _tv;
+    [SerializeField] private InteractiveItem _tv;
 
     public override bool IsInteractiveByPlayer { get; set; }
 
@@ -15,6 +15,10 @@ public class TvSwitcher : Interactive
     public override void InteractLogic()
     {
         _tv.InteractLogic();
+    }
+    public override void BlockedInteractLogic()
+    {
+
     }
 }
 

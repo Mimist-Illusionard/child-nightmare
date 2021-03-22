@@ -21,16 +21,16 @@ public sealed class InteractLogic
         {
             if (Physics.Raycast(_raycastPoint.transform.position, _raycastPoint.transform.forward, out _hit, _rayDistance))
             {
-                Debug.DrawRay(_raycastPoint.transform.position, _raycastPoint.transform.forward * _rayDistance, Color.yellow);
-
                 if (_hit.collider.gameObject.tag == "Interactive")
                 {
-                    Debug.DrawRay(_raycastPoint.transform.position, _raycastPoint.transform.forward * _rayDistance, Color.green);
-
                     var interactiveObject = _hit.collider.gameObject.GetComponent<IInteractive>();
                     if (interactiveObject.IsInteractiveByPlayer)
                     {
                         interactiveObject.InteractLogic();
+                    } 
+                    else
+                    {
+                        interactiveObject.BlockedInteractLogic();
                     }
                 }
             }

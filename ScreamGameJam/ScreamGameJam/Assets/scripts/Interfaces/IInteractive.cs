@@ -3,4 +3,5 @@
     bool IsInteractiveByPlayer { get; set; }
 
     void InteractLogic();
+    void BlockedInteractLogic();
 }

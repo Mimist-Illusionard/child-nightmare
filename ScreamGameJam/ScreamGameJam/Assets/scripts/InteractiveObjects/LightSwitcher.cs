@@ -2,12 +2,11 @@
 using UnityEngine;
 
 
-public sealed class LightSwitcher : Interactive
+public sealed class LightSwitcher : InteractiveItem
 {
     [SerializeField] private List <Light> _lights;
 
     public override bool IsInteractiveByPlayer { get; set; }
-
     public override void Initialize()
     {
         IsInteractiveByPlayer = true;
@@ -19,5 +18,10 @@ public sealed class LightSwitcher : Interactive
         {
             _lights[i].enabled = !_lights[i].enabled;
         }
+    }
+
+    public override void BlockedInteractLogic()
+    {
+        
     }
 }

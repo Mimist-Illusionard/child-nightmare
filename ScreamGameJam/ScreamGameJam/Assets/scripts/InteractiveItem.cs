@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 
-public abstract class Interactive : MonoBehaviour, IInteractive
+public abstract class InteractiveItem : MonoBehaviour, IInteractive
 {
     public void Start()
     {
@@ -11,5 +11,6 @@ public abstract class Interactive : MonoBehaviour, IInteractive
     public abstract bool IsInteractiveByPlayer { get; set; }
 
     public abstract void InteractLogic();
-    public abstract void Initialize();
+    public abstract void BlockedInteractLogic();
+    public abstract void Initialize();  
 }

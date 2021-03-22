@@ -1,5 +1,5 @@
 ﻿
-public class Tv : Interactive
+public class Tv : InteractiveItem
 {
     public override bool IsInteractiveByPlayer { get; set; }
 
@@ -11,5 +11,10 @@ public class Tv : Interactive
     public override void InteractLogic()
     {
         UnityEngine.Debug.LogWarning("TelevisorLogic");
+    }
+
+    public override void BlockedInteractLogic()
+    {
+
     }
 }
