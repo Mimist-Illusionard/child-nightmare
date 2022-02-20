@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using UnityEngine;
 
 
 namespace Ruinum.DynamicEvents.Scripts.Entries
@@ -30,10 +29,14 @@ namespace Ruinum.DynamicEvents.Scripts.Entries
                     Modifications[i].Modify();
                 }
             }
+
+            Usages++;
         }
 
         public bool CheckEntires()
         {
+            if (Once && Usages >= 1) return false;
+
             //Refresh chosen facts
             for (int i = 0; i < Criterias.Count; i++)
             {

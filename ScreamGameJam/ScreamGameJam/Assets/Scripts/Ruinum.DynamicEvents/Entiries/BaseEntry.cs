@@ -8,7 +8,9 @@ namespace Ruinum.DynamicEvents.Scripts.Entries
     public class BaseEntry
     {
         [SerializeField] public string Name;
-        [SerializeField] public string ID;        
+        [SerializeField] public string ID;
+        [SerializeField] public float Usages;
+        [SerializeField] public bool Once;
 
         public BaseEntry(string name, string Id)
         {
