@@ -13,5 +13,84 @@ MonoBehaviour:
   m_Name: house_table
   m_EditorClassIdentifier: 
   Facts: []
-  Events: []
+  Events:
+  - Name: some_event
+    ID: c8112fcd-0f0c-49d8-b607-5a4446b0307e
+    Usages: 0
+    Once: 1
+    Criterias: []
+    Modifications: []
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Triggers: []
+                  Triggers: []
+              Triggers: []
+          Triggers: []
+      Triggers: []
   Rules: []

@@ -37,6 +37,8 @@ namespace Ruinum.DynamicEvents.Scripts.Entries
         {
             if (Once && Usages >= 1) return false;
 
+            if (Criterias.Count <= 0) return true;
+
             //Refresh chosen facts
             for (int i = 0; i < Criterias.Count; i++)
             {
