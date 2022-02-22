@@ -119,14 +119,16 @@ namespace Ruinum.DynamicEvents.Editor.Windows
 
             //Draw Fact
             DrawEntryInfo(FactsSearch.SelectedItem);
-            EditorGUILayout.BeginHorizontal("box");
             if (FactsSearch.SelectedItem != null)
             {
+                EditorGUILayout.BeginHorizontal("box");
                 EditorGUILayout.LabelField($"Value: {FactsSearch.SelectedItem.Value}");
                 if (GUILayout.Button("+", GUI.skin.label, GUILayout.Width(30f))) FactsSearch.SelectedItem.Value++;
                 if (GUILayout.Button("-", GUI.skin.label, GUILayout.Width(30f))) FactsSearch.SelectedItem.Value--;
+                EditorGUILayout.EndHorizontal();
+
+                DrawUsages(FactsSearch.SelectedItem);
             }
-            EditorGUILayout.EndHorizontal();
 
             //Draw Event
             DrawEntryInfo(EventsSearch.SelectedItem);
@@ -143,6 +145,13 @@ namespace Ruinum.DynamicEvents.Editor.Windows
                     var window = EditorExtentions.CreateSearchWindowBaseEntry(typeof(RuleEntry));
                     window.SetValues(SelectedTable.Rules, (selection) => { EventsSearch.SelectedItem.Rule = selection as RuleEntry; });
                 }
+                EditorGUILayout.EndHorizontal();
+
+                DrawUsages(EventsSearch.SelectedItem);
+
+                EditorGUILayout.BeginHorizontal("box");
+                EditorGUILayout.LabelField($"Once: ", GUILayout.MaxWidth(40f));
+                EventsSearch.SelectedItem.Once = EditorGUILayout.Toggle(EventsSearch.SelectedItem.Once);
                 EditorGUILayout.EndHorizontal();
             }
             DrawLogicalEntry(EventsSearch.SelectedItem);
@@ -165,6 +174,7 @@ namespace Ruinum.DynamicEvents.Editor.Windows
                 RuleEventSearch.DrawElements(RulesSearch.SelectedItem.Triggers);
 
                 EditorGUILayout.EndVertical();
+                DrawUsages(RulesSearch.SelectedItem);
             }
 
             DrawLogicalEntry(RulesSearch.SelectedItem);
@@ -232,6 +242,15 @@ namespace Ruinum.DynamicEvents.Editor.Windows
         {
             ModifiersDrawer.SetValues(modifications, SelectedTable.Facts);
             ModifiersDrawer.OnGUI();
+        }
+
+        public void DrawUsages(BaseEntry baseEntry)
+        {
+            EditorGUILayout.BeginHorizontal("box");
+            EditorGUILayout.LabelField($"Usage: {baseEntry.Usages}");
+            if (GUILayout.Button("+", GUI.skin.label, GUILayout.Width(30f))) baseEntry.Usages++;
+            if (GUILayout.Button("-", GUI.skin.label, GUILayout.Width(30f))) baseEntry.Usages--;
+            EditorGUILayout.EndHorizontal();
         }
         #endregion
     }
