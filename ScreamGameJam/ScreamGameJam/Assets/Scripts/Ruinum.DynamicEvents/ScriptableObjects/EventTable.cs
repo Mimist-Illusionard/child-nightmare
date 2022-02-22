@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-
 namespace Ruinum.DynamicEvents.Scripts.Data
 {
     [CreateAssetMenu(fileName = "EventTable", menuName = "Ruinum/DynamicEvents/EventTable")]

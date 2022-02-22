@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5653916217900569821}
   - component: {fileID: 5653916217900569818}
   - component: {fileID: 5653916217900569819}
+  - component: {fileID: 8469677863724779175}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -71,3 +72,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FlyButton: 0
   SelectButton: 111
+--- !u!114 &8469677863724779175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5653916217900569816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72b4974e4ce8df14eb51bf2a977ca8fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventDatabase: {fileID: 11400000, guid: 572200f04310c43458b91cbd109af49f, type: 2}
