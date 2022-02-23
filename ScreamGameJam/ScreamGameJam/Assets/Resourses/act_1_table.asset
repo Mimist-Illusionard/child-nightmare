@@ -109,7 +109,7 @@ MonoBehaviour:
         ID: 431edd4b-f7b1-463b-80ae-5671a6efffc1
         Usages: 0
         Once: 0
-        Value: 0
+        Value: 1
       Type: 1
       Value: 1
     Rule:
@@ -274,7 +274,7 @@ MonoBehaviour:
         ID: 431edd4b-f7b1-463b-80ae-5671a6efffc1
         Usages: 0
         Once: 0
-        Value: 0
+        Value: 1
       Type: 2
       Value: 1
     Modifications: []
