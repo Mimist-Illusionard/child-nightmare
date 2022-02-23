@@ -28,12 +28,13 @@ public class Player : Executable
 
     public override void Execute()
 	{
-		if (gameObject.GetComponent<Player>().enabled == true)
-		{
-			Look();
-			Move();
-			GameGravity();
-		}
+		if (gameObject.GetComponent<Player>().enabled == false) return;
+
+		Look();
+		Move();
+		GameGravity();
+
+		if (Input.GetKeyDown(KeyCode.Escape)) SwitchCursorMode();
 	}
 
 	private void Look()
