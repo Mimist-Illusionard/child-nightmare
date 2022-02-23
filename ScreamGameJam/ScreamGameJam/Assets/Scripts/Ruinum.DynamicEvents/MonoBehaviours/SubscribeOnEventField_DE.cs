@@ -1,6 +1,7 @@
-using Ruinum.DynamicEvents.Scripts.Structs;
 using UnityEngine;
 using UnityEngine.Events;
+
+using Ruinum.DynamicEvents.Scripts.Structs;
 
 
 public class SubscribeOnEventField_DE : MonoBehaviour 

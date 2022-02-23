@@ -8,10 +8,11 @@ namespace Ruinum.DynamicEvents.Scripts
 {
     public class EventField_DE : MonoBehaviour
     {
-        public EventField EventField;
+        [SerializeField] private EventField EventField;
 
-        public void Awake()
+        private void Start()
         {
+            Debug.Log($"Initialzing {typeof(EventField)} in {this}");
             EventField.Initialize();
         }
 
