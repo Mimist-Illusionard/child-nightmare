@@ -13,5 +13,14 @@ public class EventDatabaseHolder : MonoBehaviour
         Singleton = this;
 
         if (EventDatabase == null) { Debug.LogError($"Please set {typeof(EventDatabase)} in field"); return; }
-    }  
+    }
+
+    private void Update()
+    {
+        for (int i = 0; i < EventDatabase.RuleEntries.Count; i++)
+        {
+            if (!EventDatabase.RuleEntries[i].CheckEntires()) continue;
+            EventDatabase.RuleEntries[i].Execute();
+        }
+    }
 }

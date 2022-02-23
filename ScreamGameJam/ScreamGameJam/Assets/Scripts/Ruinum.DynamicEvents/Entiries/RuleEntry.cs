@@ -18,7 +18,7 @@ namespace Ruinum.DynamicEvents.Scripts.Entries
         {
             for (int i = 0; i < Triggers.Count; i++)
             {
-                if (!Triggers[i].CheckEntires()) continue;
+                if (Triggers[i].CheckEntires()) { Triggers[i].Execute(); EventDatabaseHolder.Singleton.EventDatabase.RemoveActiveRule(this); break; }
             }
 
             base.Execute();

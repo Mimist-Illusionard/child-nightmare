@@ -10,183 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fbea623ca79d9a142b0118e36c9d92ae, type: 3}
-  m_Name: act_1_table
+  m_Name: act_2_table
   m_EditorClassIdentifier: 
-  Facts:
-  - Name: is_parent_missing
-    ID: 431edd4b-f7b1-463b-80ae-5671a6efffc1
-    Usages: 0
-    Once: 0
-    Value: 5
+  Facts: []
   Events:
-  - Name: light_on_event
-    ID: fbbab617-e2fa-4ba4-86f2-82fde2a6188d
-    Usages: 1
-    Once: 1
-    Criterias: []
-    Modifications: []
-    Rule:
-      Name: 
-      ID: 
-      Usages: 105723
-      Once: 0
-      Criterias: []
-      Modifications: []
-      TriggeredBy:
-        Name: 
-        ID: 
-        Usages: 0
-        Once: 0
-        Criterias: []
-        Modifications: []
-        Rule:
-          Name: 
-          ID: 
-          Usages: 0
-          Once: 0
-          Criterias: []
-          Modifications: []
-          TriggeredBy:
-            Name: 
-            ID: 
-            Usages: 0
-            Once: 0
-            Criterias: []
-            Modifications: []
-            Rule:
-              Name: 
-              ID: 
-              Usages: 0
-              Once: 0
-              Criterias: []
-              Modifications: []
-              TriggeredBy:
-                Name: 
-                ID: 
-                Usages: 0
-                Once: 0
-                Criterias: []
-                Modifications: []
-                Rule:
-                  Name: 
-                  ID: 
-                  Usages: 0
-                  Once: 0
-                  Criterias: []
-                  Modifications: []
-                  TriggeredBy:
-                    Name: 
-                    ID: 
-                    Usages: 0
-                    Once: 0
-                    Criterias: []
-                    Modifications: []
-                    Rule:
-                      Name: 
-                      ID: 
-                      Usages: 0
-                      Once: 0
-                      Criterias: []
-                      Modifications: []
-                      TriggeredBy:
-                        Name: 
-                        ID: 
-                        Usages: 0
-                        Once: 0
-                      Triggers: []
-                  Triggers: []
-              Triggers: []
-          Triggers: []
-      Triggers: []
-  - Name: thunder_event
-    ID: 76d2c0f2-6b1b-448a-bdb9-ff125559aeea
-    Usages: 0
-    Once: 1
-    Criterias: []
-    Modifications:
-    - Fact:
-        Name: is_parent_missing
-        ID: 431edd4b-f7b1-463b-80ae-5671a6efffc1
-        Usages: 0
-        Once: 0
-        Value: 5
-      Type: 1
-      Value: 1
-    Rule:
-      Name: 
-      ID: 
-      Usages: 74395
-      Once: 0
-      Criterias: []
-      Modifications: []
-      TriggeredBy:
-        Name: 
-        ID: 
-        Usages: 0
-        Once: 0
-        Criterias: []
-        Modifications: []
-        Rule:
-          Name: 
-          ID: 
-          Usages: 0
-          Once: 0
-          Criterias: []
-          Modifications: []
-          TriggeredBy:
-            Name: 
-            ID: 
-            Usages: 0
-            Once: 0
-            Criterias: []
-            Modifications: []
-            Rule:
-              Name: 
-              ID: 
-              Usages: 0
-              Once: 0
-              Criterias: []
-              Modifications: []
-              TriggeredBy:
-                Name: 
-                ID: 
-                Usages: 0
-                Once: 0
-                Criterias: []
-                Modifications: []
-                Rule:
-                  Name: 
-                  ID: 
-                  Usages: 0
-                  Once: 0
-                  Criterias: []
-                  Modifications: []
-                  TriggeredBy:
-                    Name: 
-                    ID: 
-                    Usages: 0
-                    Once: 0
-                    Criterias: []
-                    Modifications: []
-                    Rule:
-                      Name: 
-                      ID: 
-                      Usages: 0
-                      Once: 0
-                      Criterias: []
-                      Modifications: []
-                      TriggeredBy:
-                        Name: 
-                        ID: 
-                        Usages: 0
-                        Once: 0
-                      Triggers: []
-                  Triggers: []
-              Triggers: []
-          Triggers: []
-      Triggers: []
-  - Name: window_break_event
-    ID: 12baac5b-ceb5-41b2-8439-50fdbf017254
+  - Name: spider_event
+    ID: 7eaa2c66-a4dc-463a-b4ae-a6a6517eec38
     Usages: 0
     Once: 1
     Criterias: []
@@ -194,7 +23,7 @@ MonoBehaviour:
     Rule:
       Name: 
       ID: 
-      Usages: 108527
+      Usages: 0
       Once: 0
       Criterias: []
       Modifications: []
@@ -264,95 +93,8 @@ MonoBehaviour:
               Triggers: []
           Triggers: []
       Triggers: []
-  - Name: mirror_event
-    ID: acac202c-0cc2-4a02-858d-4a8b50e26028
-    Usages: 0
-    Once: 1
-    Criterias:
-    - Fact:
-        Name: is_parent_missing
-        ID: 431edd4b-f7b1-463b-80ae-5671a6efffc1
-        Usages: 0
-        Once: 0
-        Value: 5
-      Type: 2
-      Value: 1
-    Modifications: []
-    Rule:
-      Name: mirror_rule
-      ID: 34ba75b9-c622-444a-8101-207cecabd5dd
-      Usages: 80192
-      Once: 0
-      Criterias: []
-      Modifications: []
-      TriggeredBy:
-        Name: 
-        ID: 
-        Usages: 0
-        Once: 0
-        Criterias: []
-        Modifications: []
-        Rule:
-          Name: 
-          ID: 
-          Usages: 0
-          Once: 0
-          Criterias: []
-          Modifications: []
-          TriggeredBy:
-            Name: 
-            ID: 
-            Usages: 0
-            Once: 0
-            Criterias: []
-            Modifications: []
-            Rule:
-              Name: 
-              ID: 
-              Usages: 0
-              Once: 0
-              Criterias: []
-              Modifications: []
-              TriggeredBy:
-                Name: 
-                ID: 
-                Usages: 0
-                Once: 0
-                Criterias: []
-                Modifications: []
-                Rule:
-                  Name: 
-                  ID: 
-                  Usages: 0
-                  Once: 0
-                  Criterias: []
-                  Modifications: []
-                  TriggeredBy:
-                    Name: 
-                    ID: 
-                    Usages: 0
-                    Once: 0
-                    Criterias: []
-                    Modifications: []
-                    Rule:
-                      Name: 
-                      ID: 
-                      Usages: 0
-                      Once: 0
-                      Criterias: []
-                      Modifications: []
-                      TriggeredBy:
-                        Name: 
-                        ID: 
-                        Usages: 0
-                        Once: 0
-                      Triggers: []
-                  Triggers: []
-              Triggers: []
-          Triggers: []
-      Triggers: []
-  - Name: mirror_end_event
-    ID: 6ebec6ca-7fae-4a26-8079-9abaa0f74690
+  - Name: spider_end_event
+    ID: 03cec37c-67e5-4a59-b056-d408bf830214
     Usages: 0
     Once: 0
     Criterias: []
@@ -360,7 +102,7 @@ MonoBehaviour:
     Rule:
       Name: 
       ID: 
-      Usages: 47054
+      Usages: 0
       Once: 0
       Criterias: []
       Modifications: []
@@ -430,16 +172,95 @@ MonoBehaviour:
               Triggers: []
           Triggers: []
       Triggers: []
-  - Name: on_creature_see_event
-    ID: 3555b5eb-4885-4811-a06f-669abddf5573
-    Usages: 1
-    Once: 0
+  - Name: tv_event
+    ID: a9f0f34f-fd74-4c08-aa88-9b68da48acb0
+    Usages: 0
+    Once: 1
     Criterias: []
     Modifications: []
     Rule:
       Name: 
       ID: 
-      Usages: 26916
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Triggers: []
+                  Triggers: []
+              Triggers: []
+          Triggers: []
+      Triggers: []
+  - Name: choice_event
+    ID: c6b9cf14-070a-48b9-8745-922f9722e69b
+    Usages: 0
+    Once: 1
+    Criterias: []
+    Modifications: []
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
       Once: 0
       Criterias: []
       Modifications: []
@@ -510,15 +331,15 @@ MonoBehaviour:
           Triggers: []
       Triggers: []
   - Name: next_act_event
-    ID: 91944bc4-5fdd-4dc9-b857-5ae6cd3df44e
-    Usages: 1
+    ID: 1af5af0b-b523-4140-89d1-3a44cf00f19f
+    Usages: 0
     Once: 0
     Criterias: []
     Modifications: []
     Rule:
       Name: 
       ID: 
-      Usages: 20253
+      Usages: 0
       Once: 0
       Criterias: []
       Modifications: []

@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 using Ruinum.DynamicEvents.Scripts.Entries;
-using System;
+
 
 namespace Ruinum.DynamicEvents.Scripts.Data
 {
@@ -10,7 +10,18 @@ namespace Ruinum.DynamicEvents.Scripts.Data
     public class EventDatabase : ScriptableObject
     {
         public List<EventTable> EventTables;
+        public List<RuleEntry> RuleEntries;
+        public void AddActiveRule(RuleEntry ruleEntry)
+        {
+            RuleEntries.Add(ruleEntry);
+        }
 
+        public void RemoveActiveRule(RuleEntry rule)
+        {
+            RuleEntries.Remove(rule);
+        }
+
+        #region TryFind Methods
         public bool TryFindEvent(string id, out EventEntry eventEntry)
         {
             eventEntry = default;
@@ -64,5 +75,6 @@ namespace Ruinum.DynamicEvents.Scripts.Data
 
             return false;
         }
+        #endregion
     }
 }
