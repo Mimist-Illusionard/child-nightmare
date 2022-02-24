@@ -15,4 +15,6 @@ MonoBehaviour:
   EventTables:
   - {fileID: 11400000, guid: 497b953160e5ee240a35afa94736d7f7, type: 2}
   - {fileID: 11400000, guid: b2f7b8dd2ea57684eb64d2e30675c071, type: 2}
+  - {fileID: 11400000, guid: a0fdf960aa753ae4f8d3a381b322d376, type: 2}
   - {fileID: 11400000, guid: d9ae9028b97819649b92a2ca6cd80df6, type: 2}
+  RuleEntries: []
