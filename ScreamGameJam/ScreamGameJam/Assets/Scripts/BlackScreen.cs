@@ -3,7 +3,7 @@ using UnityEngine;
 using DG.Tweening;
 
 
-public class BlackScreen : BaseSingleton<BlackScreen>
+public class BlackScreen : MonoBehaviour
 {
     public CanvasGroup Screen;
     public float FadeDuration;

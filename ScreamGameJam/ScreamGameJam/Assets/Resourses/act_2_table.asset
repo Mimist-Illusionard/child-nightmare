@@ -23,86 +23,7 @@ MonoBehaviour:
     Rule:
       Name: 
       ID: 
-      Usages: 0
-      Once: 0
-      Criterias: []
-      Modifications: []
-      TriggeredBy:
-        Name: 
-        ID: 
-        Usages: 0
-        Once: 0
-        Criterias: []
-        Modifications: []
-        Rule:
-          Name: 
-          ID: 
-          Usages: 0
-          Once: 0
-          Criterias: []
-          Modifications: []
-          TriggeredBy:
-            Name: 
-            ID: 
-            Usages: 0
-            Once: 0
-            Criterias: []
-            Modifications: []
-            Rule:
-              Name: 
-              ID: 
-              Usages: 0
-              Once: 0
-              Criterias: []
-              Modifications: []
-              TriggeredBy:
-                Name: 
-                ID: 
-                Usages: 0
-                Once: 0
-                Criterias: []
-                Modifications: []
-                Rule:
-                  Name: 
-                  ID: 
-                  Usages: 0
-                  Once: 0
-                  Criterias: []
-                  Modifications: []
-                  TriggeredBy:
-                    Name: 
-                    ID: 
-                    Usages: 0
-                    Once: 0
-                    Criterias: []
-                    Modifications: []
-                    Rule:
-                      Name: 
-                      ID: 
-                      Usages: 0
-                      Once: 0
-                      Criterias: []
-                      Modifications: []
-                      TriggeredBy:
-                        Name: 
-                        ID: 
-                        Usages: 0
-                        Once: 0
-                      Triggers: []
-                  Triggers: []
-              Triggers: []
-          Triggers: []
-      Triggers: []
-  - Name: spider_end_event
-    ID: 03cec37c-67e5-4a59-b056-d408bf830214
-    Usages: 0
-    Once: 0
-    Criterias: []
-    Modifications: []
-    Rule:
-      Name: 
-      ID: 
-      Usages: 0
+      Usages: 18438
       Once: 0
       Criterias: []
       Modifications: []
@@ -175,13 +96,13 @@ MonoBehaviour:
   - Name: tv_event
     ID: a9f0f34f-fd74-4c08-aa88-9b68da48acb0
     Usages: 0
-    Once: 1
+    Once: 0
     Criterias: []
     Modifications: []
     Rule:
       Name: 
       ID: 
-      Usages: 40005
+      Usages: 52687
       Once: 0
       Criterias: []
       Modifications: []
@@ -253,14 +174,14 @@ MonoBehaviour:
       Triggers: []
   - Name: choice_event
     ID: c6b9cf14-070a-48b9-8745-922f9722e69b
-    Usages: 2
+    Usages: 3
     Once: 0
     Criterias: []
     Modifications: []
     Rule:
       Name: 
       ID: 
-      Usages: 7915
+      Usages: 16926
       Once: 0
       Criterias: []
       Modifications: []
