@@ -49,6 +49,8 @@ public class Player : Executable
 
 	private void Move()
 	{
+		if (!_characterController.enabled) return;
+
 		float x = Input.GetAxis("Horizontal");
 		float z = Input.GetAxis("Vertical");
 
