@@ -16,14 +16,14 @@ MonoBehaviour:
   Events:
   - Name: bad_ending_event
     ID: 3ba3b021-3828-426f-847a-fb3eb63b8293
-    Usages: 0
+    Usages: 2
     Once: 0
     Criterias: []
     Modifications: []
     Rule:
       Name: 
       ID: 
-      Usages: 0
+      Usages: 6247
       Once: 0
       Criterias: []
       Modifications: []
