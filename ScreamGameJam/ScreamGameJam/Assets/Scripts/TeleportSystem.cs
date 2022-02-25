@@ -9,8 +9,9 @@ public class TeleportSystem : MonoBehaviour
     public void RefreshPlayerPosition()
     {
         Player.GetComponent<CharacterController>().enabled = false;
-        Player.gameObject.transform.rotation = new Quaternion(0f, 180f, 0f, 0f);
+        Player.gameObject.transform.rotation = SpawnPoint.rotation;
         Player.transform.position = SpawnPoint.position;
+        Camera.main.transform.rotation = SpawnPoint.rotation;
         Player.GetComponent<CharacterController>().enabled = true;
     }
 }
