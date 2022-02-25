@@ -14,6 +14,7 @@ public class SpiderPaths : MonoBehaviour,IExecute
 
     public void Execute()
     {
+        if (!gameObject.active) return;
         if(MainFollower.distanceTravelled >= firsPathDist && MainFollower.pathCreator == firsPath) { StartAnim(); }
     }
       
