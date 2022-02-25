@@ -9,9 +9,15 @@ namespace Ruinum.DynamicEvents.Scripts
     {
         public FactField FactField;
 
-        public void Awake()
+        public void Start()
         {
             FactField.Initialize();
+        }
+
+        public void IncreaseOne(int i)
+        {
+            FactField.Initialize();
+            FactField.FactEntry.Value += i;
         }
     }
 }
