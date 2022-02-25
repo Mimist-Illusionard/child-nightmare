@@ -23,7 +23,7 @@ MonoBehaviour:
     Rule:
       Name: 
       ID: 
-      Usages: 65438
+      Usages: 295505
       Once: 0
       Criterias: []
       Modifications: []
@@ -95,14 +95,14 @@ MonoBehaviour:
       Triggers: []
   - Name: tv_event
     ID: a9f0f34f-fd74-4c08-aa88-9b68da48acb0
-    Usages: 1
+    Usages: 5
     Once: 0
     Criterias: []
     Modifications: []
     Rule:
       Name: 
       ID: 
-      Usages: 82981
+      Usages: 285095
       Once: 0
       Criterias: []
       Modifications: []
@@ -174,14 +174,14 @@ MonoBehaviour:
       Triggers: []
   - Name: choice_event
     ID: c6b9cf14-070a-48b9-8745-922f9722e69b
-    Usages: 5
+    Usages: 9
     Once: 0
     Criterias: []
     Modifications: []
     Rule:
       Name: 
       ID: 
-      Usages: 36071
+      Usages: 219083
       Once: 0
       Criterias: []
       Modifications: []
@@ -253,14 +253,14 @@ MonoBehaviour:
       Triggers: []
   - Name: next_act_event
     ID: 1af5af0b-b523-4140-89d1-3a44cf00f19f
-    Usages: 0
+    Usages: 3
     Once: 0
     Criterias: []
     Modifications: []
     Rule:
       Name: 
       ID: 
-      Usages: 0
+      Usages: 172007
       Once: 0
       Criterias: []
       Modifications: []
@@ -332,14 +332,14 @@ MonoBehaviour:
       Triggers: []
   - Name: kid_choice_event
     ID: 208757e8-f474-4dea-8b85-253448e79fe7
-    Usages: 4
+    Usages: 5
     Once: 0
     Criterias: []
     Modifications: []
     Rule:
       Name: 
       ID: 
-      Usages: 26678
+      Usages: 32373
       Once: 0
       Criterias: []
       Modifications: []
@@ -411,14 +411,14 @@ MonoBehaviour:
       Triggers: []
   - Name: kid_choice_creature_event
     ID: ba134d16-943a-4167-9caf-bfac0334c42b
-    Usages: 2
+    Usages: 3
     Once: 0
     Criterias: []
     Modifications: []
     Rule:
       Name: 
       ID: 
-      Usages: 9309
+      Usages: 14341
       Once: 0
       Criterias: []
       Modifications: []
@@ -490,14 +490,14 @@ MonoBehaviour:
       Triggers: []
   - Name: pre_bad_ending_event
     ID: c926b362-bbe3-4f0f-b94f-8925b2dbb355
-    Usages: 2
+    Usages: 3
     Once: 0
     Criterias: []
     Modifications: []
     Rule:
       Name: 
       ID: 
-      Usages: 8638
+      Usages: 13345
       Once: 0
       Criterias: []
       Modifications: []
