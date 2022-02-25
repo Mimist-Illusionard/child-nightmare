@@ -10,91 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fbea623ca79d9a142b0118e36c9d92ae, type: 3}
-  m_Name: act_2_table
+  m_Name: general_table
   m_EditorClassIdentifier: 
   Facts: []
   Events:
-  - Name: spider_event
-    ID: 7eaa2c66-a4dc-463a-b4ae-a6a6517eec38
-    Usages: 0
-    Once: 1
-    Criterias: []
-    Modifications: []
-    Rule:
-      Name: 
-      ID: 
-      Usages: 18438
-      Once: 0
-      Criterias: []
-      Modifications: []
-      TriggeredBy:
-        Name: 
-        ID: 
-        Usages: 0
-        Once: 0
-        Criterias: []
-        Modifications: []
-        Rule:
-          Name: 
-          ID: 
-          Usages: 0
-          Once: 0
-          Criterias: []
-          Modifications: []
-          TriggeredBy:
-            Name: 
-            ID: 
-            Usages: 0
-            Once: 0
-            Criterias: []
-            Modifications: []
-            Rule:
-              Name: 
-              ID: 
-              Usages: 0
-              Once: 0
-              Criterias: []
-              Modifications: []
-              TriggeredBy:
-                Name: 
-                ID: 
-                Usages: 0
-                Once: 0
-                Criterias: []
-                Modifications: []
-                Rule:
-                  Name: 
-                  ID: 
-                  Usages: 0
-                  Once: 0
-                  Criterias: []
-                  Modifications: []
-                  TriggeredBy:
-                    Name: 
-                    ID: 
-                    Usages: 0
-                    Once: 0
-                    Criterias: []
-                    Modifications: []
-                    Rule:
-                      Name: 
-                      ID: 
-                      Usages: 0
-                      Once: 0
-                      Criterias: []
-                      Modifications: []
-                      TriggeredBy:
-                        Name: 
-                        ID: 
-                        Usages: 0
-                        Once: 0
-                      Triggers: []
-                  Triggers: []
-              Triggers: []
-          Triggers: []
-      Triggers: []
-  - Name: tv_event
-    ID: a9f0f34f-fd74-4c08-aa88-9b68da48acb0
+  - Name: bad_ending_event
+    ID: 3ba3b021-3828-426f-847a-fb3eb63b8293
     Usages: 0
     Once: 0
     Criterias: []
@@ -102,7 +23,7 @@ MonoBehaviour:
     Rule:
       Name: 
       ID: 
-      Usages: 52687
+      Usages: 0
       Once: 0
       Criterias: []
       Modifications: []
@@ -172,16 +93,16 @@ MonoBehaviour:
               Triggers: []
           Triggers: []
       Triggers: []
-  - Name: choice_event
-    ID: c6b9cf14-070a-48b9-8745-922f9722e69b
-    Usages: 3
+  - Name: good_ending_event
+    ID: 02334d9b-e2bc-4f60-b245-0d0cc00e82ab
+    Usages: 0
     Once: 0
     Criterias: []
     Modifications: []
     Rule:
       Name: 
       ID: 
-      Usages: 16926
+      Usages: 0
       Once: 0
       Criterias: []
       Modifications: []
@@ -251,8 +172,8 @@ MonoBehaviour:
               Triggers: []
           Triggers: []
       Triggers: []
-  - Name: next_act_event
-    ID: 1af5af0b-b523-4140-89d1-3a44cf00f19f
+  - Name: true_ending_event
+    ID: 2fa10797-4319-4330-a59f-a162d9210d3f
     Usages: 0
     Once: 0
     Criterias: []

@@ -17,18 +17,18 @@ MonoBehaviour:
     ID: 431edd4b-f7b1-463b-80ae-5671a6efffc1
     Usages: 0
     Once: 0
-    Value: 5
+    Value: 15
   Events:
   - Name: light_on_event
     ID: fbbab617-e2fa-4ba4-86f2-82fde2a6188d
-    Usages: 1
+    Usages: 0
     Once: 1
     Criterias: []
     Modifications: []
     Rule:
       Name: 
       ID: 
-      Usages: 105723
+      Usages: 415715
       Once: 0
       Criterias: []
       Modifications: []
@@ -109,13 +109,13 @@ MonoBehaviour:
         ID: 431edd4b-f7b1-463b-80ae-5671a6efffc1
         Usages: 0
         Once: 0
-        Value: 5
+        Value: 15
       Type: 1
       Value: 1
     Rule:
       Name: 
       ID: 
-      Usages: 74395
+      Usages: 301586
       Once: 0
       Criterias: []
       Modifications: []
@@ -194,7 +194,7 @@ MonoBehaviour:
     Rule:
       Name: 
       ID: 
-      Usages: 108527
+      Usages: 377494
       Once: 0
       Criterias: []
       Modifications: []
@@ -274,14 +274,14 @@ MonoBehaviour:
         ID: 431edd4b-f7b1-463b-80ae-5671a6efffc1
         Usages: 0
         Once: 0
-        Value: 5
+        Value: 15
       Type: 2
       Value: 1
     Modifications: []
     Rule:
       Name: mirror_rule
       ID: 34ba75b9-c622-444a-8101-207cecabd5dd
-      Usages: 80192
+      Usages: 384198
       Once: 0
       Criterias: []
       Modifications: []
@@ -353,14 +353,14 @@ MonoBehaviour:
       Triggers: []
   - Name: mirror_end_event
     ID: 6ebec6ca-7fae-4a26-8079-9abaa0f74690
-    Usages: 0
+    Usages: 15
     Once: 0
     Criterias: []
     Modifications: []
     Rule:
       Name: 
       ID: 
-      Usages: 47054
+      Usages: 285488
       Once: 0
       Criterias: []
       Modifications: []
@@ -432,14 +432,14 @@ MonoBehaviour:
       Triggers: []
   - Name: on_creature_see_event
     ID: 3555b5eb-4885-4811-a06f-669abddf5573
-    Usages: 1
+    Usages: 15
     Once: 0
     Criterias: []
     Modifications: []
     Rule:
       Name: 
       ID: 
-      Usages: 26916
+      Usages: 156839
       Once: 0
       Criterias: []
       Modifications: []
@@ -511,14 +511,14 @@ MonoBehaviour:
       Triggers: []
   - Name: next_act_event
     ID: 91944bc4-5fdd-4dc9-b857-5ae6cd3df44e
-    Usages: 1
+    Usages: 15
     Once: 0
     Criterias: []
     Modifications: []
     Rule:
       Name: 
       ID: 
-      Usages: 20253
+      Usages: 139516
       Once: 0
       Criterias: []
       Modifications: []

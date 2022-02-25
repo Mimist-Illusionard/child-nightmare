@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class CameraStates : Executable
 {
+    public BlackScreen BlackScreen;
     public CharacterController Player;
     public Transform BedState;
     public Transform UsualState;
@@ -29,22 +30,22 @@ public class CameraStates : Executable
     {
         isUsualState = false;
         Player.enabled = false;
-        BlackScreen.Singleton.FadeIn();
+        BlackScreen.FadeIn();
 
         yield return new WaitForSeconds(1.5f);
         Player.gameObject.transform.position = BedState.position;
 
-        BlackScreen.Singleton.FadeOut();
+        BlackScreen.FadeOut();
     }
 
     private IEnumerator LoadUsualState()
     {
-        BlackScreen.Singleton.FadeIn();
+        BlackScreen.FadeIn();
 
         yield return new WaitForSeconds(1.5f);
         Player.gameObject.transform.position = UsualState.position;
 
-        BlackScreen.Singleton.FadeOut();
+        BlackScreen.FadeOut();
         Player.enabled = true;
         isUsualState = true;
     }
