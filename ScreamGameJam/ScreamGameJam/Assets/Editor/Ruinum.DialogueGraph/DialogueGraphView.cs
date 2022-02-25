@@ -85,8 +85,8 @@ namespace Ruinum.DialogueGraph.Editor.Graph
                             GraphNodeBase outputNode = (GraphNodeBase)edge.output.node;
                             GraphNodeBase inputNode = (GraphNodeBase)edge.input.node;
 
-                            if (outputNode.TryGetPortConnectionByID(inputNode.ID, out var connectedNode)) connectedNode.ConnectedNodeID = "";
-                            if (inputNode.TryGetPortConnectionByID(outputNode.ID, out var connectedNode2)) connectedNode2.ConnectedNodeID = "";
+                            if (outputNode.TryGetPortConnectionByID(inputNode.ID, out var connectedNode)) outputNode.RemovePortByID(connectedNode.ID);
+                            if (inputNode.TryGetPortConnectionByID(outputNode.ID, out var connectedNode2)) inputNode.RemovePortByID(connectedNode2.ID);
                         }
                     }
                 }

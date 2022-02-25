@@ -6,7 +6,7 @@ public class ExecuteDialogue : MonoBehaviour
 {
     public Dialogue Dialogue;
 
-    private void Start()
+    public void StartDialogue()
     {
         Dialogue.Execute();
     }

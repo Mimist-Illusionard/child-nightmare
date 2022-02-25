@@ -16,7 +16,10 @@ namespace Ruinum.DynamicEvents.Scripts.Entries
         public override void Execute()
         {
             base.Execute();
-            if (Rule != null) EventDatabaseHolder.Singleton.EventDatabase.AddActiveRule(Rule);
+            if (Rule.ID == null) return;
+
+            if (EventDatabaseHolder.Singleton.EventDatabase.TryFindRule(Rule.ID, out var rule))
+                EventDatabaseHolder.Singleton.EventDatabase.AddActiveRule(rule);
         }
     }
 }

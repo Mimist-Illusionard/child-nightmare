@@ -14,6 +14,7 @@ namespace Ruinum.DialogueGraph.Scripts.Data
     {
         public List<GraphNodeData> Nodes = new List<GraphNodeData>();
         public List<GroupData> Groups = new List<GroupData>();
+        public Action<string> OnExecuteDialogue;
 
         public void Execute()
         {

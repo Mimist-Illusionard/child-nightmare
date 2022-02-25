@@ -18,11 +18,13 @@ namespace Ruinum.DynamicEvents.Scripts
 
         public void StartEvent()
         {
+            EventField.Initialize();
             EventField.TriggerEvent();
         }
 
         public void SubscribeOnEvent(Action action = null)
         {
+            EventField.Initialize();
             EventField.SubscribeOnEvent(action);
         }
     }

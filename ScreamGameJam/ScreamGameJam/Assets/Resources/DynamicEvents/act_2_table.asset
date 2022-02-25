@@ -1,0 +1,570 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbea623ca79d9a142b0118e36c9d92ae, type: 3}
+  m_Name: act_2_table
+  m_EditorClassIdentifier: 
+  Facts: []
+  Events:
+  - Name: spider_event
+    ID: 7eaa2c66-a4dc-463a-b4ae-a6a6517eec38
+    Usages: 0
+    Once: 1
+    Criterias: []
+    Modifications: []
+    Rule:
+      Name: 
+      ID: 
+      Usages: 363204
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Triggers: []
+                  Triggers: []
+              Triggers: []
+          Triggers: []
+      Triggers: []
+  - Name: tv_event
+    ID: a9f0f34f-fd74-4c08-aa88-9b68da48acb0
+    Usages: 6
+    Once: 0
+    Criterias: []
+    Modifications: []
+    Rule:
+      Name: 
+      ID: 
+      Usages: 345934
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Triggers: []
+                  Triggers: []
+              Triggers: []
+          Triggers: []
+      Triggers: []
+  - Name: choice_event
+    ID: c6b9cf14-070a-48b9-8745-922f9722e69b
+    Usages: 10
+    Once: 0
+    Criterias: []
+    Modifications: []
+    Rule:
+      Name: 
+      ID: 
+      Usages: 275213
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Triggers: []
+                  Triggers: []
+              Triggers: []
+          Triggers: []
+      Triggers: []
+  - Name: next_act_event
+    ID: 1af5af0b-b523-4140-89d1-3a44cf00f19f
+    Usages: 4
+    Once: 0
+    Criterias: []
+    Modifications: []
+    Rule:
+      Name: 
+      ID: 
+      Usages: 219561
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Triggers: []
+                  Triggers: []
+              Triggers: []
+          Triggers: []
+      Triggers: []
+  - Name: kid_choice_event
+    ID: 208757e8-f474-4dea-8b85-253448e79fe7
+    Usages: 5
+    Once: 0
+    Criterias: []
+    Modifications: []
+    Rule:
+      Name: 
+      ID: 
+      Usages: 32373
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Triggers: []
+                  Triggers: []
+              Triggers: []
+          Triggers: []
+      Triggers: []
+  - Name: kid_choice_creature_event
+    ID: ba134d16-943a-4167-9caf-bfac0334c42b
+    Usages: 3
+    Once: 0
+    Criterias: []
+    Modifications: []
+    Rule:
+      Name: 
+      ID: 
+      Usages: 14341
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Triggers: []
+                  Triggers: []
+              Triggers: []
+          Triggers: []
+      Triggers: []
+  - Name: pre_bad_ending_event
+    ID: c926b362-bbe3-4f0f-b94f-8925b2dbb355
+    Usages: 3
+    Once: 0
+    Criterias: []
+    Modifications: []
+    Rule:
+      Name: 
+      ID: 
+      Usages: 13345
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Triggers: []
+                  Triggers: []
+              Triggers: []
+          Triggers: []
+      Triggers: []
+  Rules: []

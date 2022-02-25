@@ -88,6 +88,16 @@ namespace Ruinum.DialogueGraph.Editor.Elements
             return false;
         }
 
+        public void RemovePortByID(string ID)
+        {
+            if (PortsData.Count <= 0) return;
+
+            foreach (var portData in PortsData)
+            {
+                if (portData.ID == ID) PortsData.Remove(portData);
+            }
+        }
+
         #region Save & Load Methods
         public virtual GraphNodeData SaveNode()
         {

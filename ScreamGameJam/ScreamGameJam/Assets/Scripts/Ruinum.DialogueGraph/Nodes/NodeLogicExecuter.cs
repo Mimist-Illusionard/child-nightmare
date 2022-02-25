@@ -40,7 +40,7 @@ namespace Ruinum.DialogueGraph.Scripts.Node
 
             int nodeCount = 0;
             //Loop for each node and generate node logic
-            while (currentNode.Type != NodeType.End && nodeCount <= _nodeDatas.Count)
+            while (currentNode.Type != NodeType.End && nodeCount <= _nodeDatas.Count + 2)
             {
                 foreach (var nodeData in _nodeDatas)
                 {
@@ -51,7 +51,7 @@ namespace Ruinum.DialogueGraph.Scripts.Node
 
                         if (currentNode.Type == NodeType.End)
                         {
-                            _isInitialize = true;
+                            _isInitialize = true;                            
                             return;
                         }
                     }
@@ -69,8 +69,8 @@ namespace Ruinum.DialogueGraph.Scripts.Node
 
             for (int i = 0; i < _nodeLogics.Count; i++)
             {
-                var spellNodeLogic = _nodeLogics[i];
-                spellNodeLogic.Logic();
+                var nodeLogic = _nodeLogics[i];
+                nodeLogic.Logic();
             }
         }
 

@@ -1,0 +1,254 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbea623ca79d9a142b0118e36c9d92ae, type: 3}
+  m_Name: general_table
+  m_EditorClassIdentifier: 
+  Facts: []
+  Events:
+  - Name: bad_ending_event
+    ID: 3ba3b021-3828-426f-847a-fb3eb63b8293
+    Usages: 3
+    Once: 0
+    Criterias: []
+    Modifications: []
+    Rule:
+      Name: 
+      ID: 
+      Usages: 9170
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Triggers: []
+                  Triggers: []
+              Triggers: []
+          Triggers: []
+      Triggers: []
+  - Name: good_ending_event
+    ID: 02334d9b-e2bc-4f60-b245-0d0cc00e82ab
+    Usages: 0
+    Once: 0
+    Criterias: []
+    Modifications: []
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Triggers: []
+                  Triggers: []
+              Triggers: []
+          Triggers: []
+      Triggers: []
+  - Name: true_ending_event
+    ID: 2fa10797-4319-4330-a59f-a162d9210d3f
+    Usages: 0
+    Once: 0
+    Criterias: []
+    Modifications: []
+    Rule:
+      Name: 
+      ID: 
+      Usages: 0
+      Once: 0
+      Criterias: []
+      Modifications: []
+      TriggeredBy:
+        Name: 
+        ID: 
+        Usages: 0
+        Once: 0
+        Criterias: []
+        Modifications: []
+        Rule:
+          Name: 
+          ID: 
+          Usages: 0
+          Once: 0
+          Criterias: []
+          Modifications: []
+          TriggeredBy:
+            Name: 
+            ID: 
+            Usages: 0
+            Once: 0
+            Criterias: []
+            Modifications: []
+            Rule:
+              Name: 
+              ID: 
+              Usages: 0
+              Once: 0
+              Criterias: []
+              Modifications: []
+              TriggeredBy:
+                Name: 
+                ID: 
+                Usages: 0
+                Once: 0
+                Criterias: []
+                Modifications: []
+                Rule:
+                  Name: 
+                  ID: 
+                  Usages: 0
+                  Once: 0
+                  Criterias: []
+                  Modifications: []
+                  TriggeredBy:
+                    Name: 
+                    ID: 
+                    Usages: 0
+                    Once: 0
+                    Criterias: []
+                    Modifications: []
+                    Rule:
+                      Name: 
+                      ID: 
+                      Usages: 0
+                      Once: 0
+                      Criterias: []
+                      Modifications: []
+                      TriggeredBy:
+                        Name: 
+                        ID: 
+                        Usages: 0
+                        Once: 0
+                      Triggers: []
+                  Triggers: []
+              Triggers: []
+          Triggers: []
+      Triggers: []
+  Rules: []

@@ -1,5 +1,4 @@
 ﻿using Ruinum.DialogueGraph.Scripts.Node;
-using UnityEngine;
 
 
 public class DialogueNodeLogic : NodeLogicBase
@@ -16,6 +15,7 @@ public class DialogueNodeLogic : NodeLogicBase
 
     public override void Logic()
     {
-        Debug.Log($"Dialogue node: {_text}");
+        $"Add dialogue: {_text} to Queue".Log();
+        Subtitle.Singleton.AddSubtitleInQueue(_text);
     }
 }

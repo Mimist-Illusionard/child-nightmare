@@ -11,6 +11,7 @@ namespace Ruinum.DynamicEvents.Scripts.Data
     {
         public List<EventTable> EventTables;
         public List<RuleEntry> RuleEntries;
+
         public void AddActiveRule(RuleEntry ruleEntry)
         {
             RuleEntries.Add(ruleEntry);
