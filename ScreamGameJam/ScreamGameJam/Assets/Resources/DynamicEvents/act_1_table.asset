@@ -17,7 +17,7 @@ MonoBehaviour:
     ID: 431edd4b-f7b1-463b-80ae-5671a6efffc1
     Usages: 0
     Once: 0
-    Value: 2129
+    Value: 2133
   Events:
   - Name: light_on_event
     ID: fbbab617-e2fa-4ba4-86f2-82fde2a6188d
@@ -109,7 +109,7 @@ MonoBehaviour:
         ID: 431edd4b-f7b1-463b-80ae-5671a6efffc1
         Usages: 0
         Once: 0
-        Value: 24
+        Value: 2133
       Type: 1
       Value: 1
     Rule:
@@ -187,7 +187,7 @@ MonoBehaviour:
       Triggers: []
   - Name: window_break_event
     ID: 12baac5b-ceb5-41b2-8439-50fdbf017254
-    Usages: 1
+    Usages: 0
     Once: 1
     Criterias: []
     Modifications: []
@@ -274,7 +274,7 @@ MonoBehaviour:
         ID: 431edd4b-f7b1-463b-80ae-5671a6efffc1
         Usages: 0
         Once: 0
-        Value: 24
+        Value: 2133
       Type: 2
       Value: 1
     Modifications: []
@@ -353,7 +353,7 @@ MonoBehaviour:
       Triggers: []
   - Name: mirror_end_event
     ID: 6ebec6ca-7fae-4a26-8079-9abaa0f74690
-    Usages: 22
+    Usages: 26
     Once: 0
     Criterias: []
     Modifications: []
@@ -432,7 +432,7 @@ MonoBehaviour:
       Triggers: []
   - Name: on_creature_see_event
     ID: 3555b5eb-4885-4811-a06f-669abddf5573
-    Usages: 22
+    Usages: 26
     Once: 0
     Criterias: []
     Modifications: []
@@ -511,7 +511,7 @@ MonoBehaviour:
       Triggers: []
   - Name: next_act_event
     ID: 91944bc4-5fdd-4dc9-b857-5ae6cd3df44e
-    Usages: 22
+    Usages: 26
     Once: 0
     Criterias: []
     Modifications: []

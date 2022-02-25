@@ -92,9 +92,9 @@ namespace Ruinum.DialogueGraph.Editor.Elements
         {
             if (PortsData.Count <= 0) return;
 
-            foreach (var portData in PortsData)
+            for (int i = 0; i < PortsData.Count; i++)
             {
-                if (portData.ID == ID) PortsData.Remove(portData);
+                if (PortsData[i].ID == ID) PortsData.Remove(PortsData[i]);
             }
         }
 
