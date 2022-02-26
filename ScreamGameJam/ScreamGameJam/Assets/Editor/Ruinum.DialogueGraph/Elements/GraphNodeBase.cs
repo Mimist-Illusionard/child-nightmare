@@ -8,7 +8,7 @@ using UnityEngine;
 using Ruinum.DialogueGraph.Editor.Graph;
 using Ruinum.DialogueGraph.Scripts.Data;
 using Ruinum.DialogueGraph.Editor.Utility;
-
+using System.Linq;
 
 namespace Ruinum.DialogueGraph.Editor.Elements
 {
@@ -59,7 +59,7 @@ namespace Ruinum.DialogueGraph.Editor.Elements
 
         public void AddInputNode(Port outputPort, GraphNodeBase inputNode)
         {
-            PortsData.Add(new NodePortData(outputPort.portName, Guid.NewGuid().ToString(), Direction.Output, inputNode.ID));
+            PortsData.Add(new NodePortData(outputPort.portName, Guid.NewGuid().ToString(), DataDirection.Output, inputNode.ID));
         }
 
         public void SetGraphView(DialogueGraphView graphView)
@@ -117,10 +117,24 @@ namespace Ruinum.DialogueGraph.Editor.Elements
                 var port = Ports[i];
 
                 if (port.direction == Direction.Input)
-                    PortsData.Add(new NodePortData("Input", Guid.NewGuid().ToString(), port.direction, ""));
+                    PortsData.Add(new NodePortData("Input", Guid.NewGuid().ToString(), ConvertDirection(port.direction), ""));
             }
 
             return PortsData;
+        }
+
+        private DataDirection ConvertDirection(Direction direction)
+        {
+            DataDirection result = default;
+            var directions = Enum.GetValues(typeof(DataDirection));
+
+            foreach (var item in directions)
+            {
+                var direct = (DataDirection)item;
+                if (direct.ToString() == direction.ToString()) result = direct;
+            }
+
+            return result;
         }
 
         public virtual void Load(GraphNodeData nodeData)
@@ -137,7 +151,7 @@ namespace Ruinum.DialogueGraph.Editor.Elements
 
             foreach (var portData in nodeData.Ports)
             {
-                if (portData.Direction == Direction.Output)
+                if (portData.Direction.ToString() == Direction.Output.ToString())
                 {
                     outputPorts.Add(portData);
                 }

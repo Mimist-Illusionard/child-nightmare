@@ -23,7 +23,7 @@ namespace Ruinum.DialogueGraph.Scripts.Data
             for (int i = 0; i < Ports.Count; i++)
             {
                 var port = Ports[i];
-                if (port.Direction == UnityEditor.Experimental.GraphView.Direction.Output && port.Name == "Output")
+                if (port.Name == "Output")
                 {
                     return port;
                 }
@@ -39,7 +39,7 @@ namespace Ruinum.DialogueGraph.Scripts.Data
             for (int i = 0; i < Ports.Count; i++)
             {
                 var port = Ports[i];
-                if (port.Direction == UnityEditor.Experimental.GraphView.Direction.Output)
+                if (port.Direction.ToString() == "Output")
                 {
                     outputPorts.Add(port);
                 }

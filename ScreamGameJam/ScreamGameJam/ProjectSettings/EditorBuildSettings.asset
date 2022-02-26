@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/MenuScene.unity
     guid: f99b911282dc85e4d82eced928a13647
   - enabled: 1
-    path: Assets/Scenes/Location_Clone 1.unity
-    guid: 36de91f3f6442fb4e92a7742d1ef14df
+    path: Assets/Scenes/Location.unity
+    guid: ef700b4a9bfedf24d8f4980b5fc9addf
   m_configObjects: {}

@@ -1,7 +1,5 @@
 ﻿using System;
 
-using UnityEditor.Experimental.GraphView;
-
 
 namespace Ruinum.DialogueGraph.Scripts.Data
 {
@@ -10,10 +8,10 @@ namespace Ruinum.DialogueGraph.Scripts.Data
     {
         public string Name;
         public string ID;
-        public Direction Direction;
+        public DataDirection Direction;
         public string ConnectedNodeID;
 
-        public NodePortData(string name, string id, Direction direction, string connectedNodeID)
+        public NodePortData(string name, string id, DataDirection direction, string connectedNodeID)
         {
             Name = name;
             ID = id;
@@ -21,4 +19,10 @@ namespace Ruinum.DialogueGraph.Scripts.Data
             ConnectedNodeID = connectedNodeID;
         }
     }
+}
+public enum DataDirection
+{
+    None = 0,
+    Output = 1,
+    Input = 2
 }

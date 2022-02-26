@@ -43,4 +43,9 @@ public class Menu : MonoBehaviour
     {
         Sens = slider.value;
     }
+
+    public void Exit()
+    {
+        Application.Quit();
+    }
 }
