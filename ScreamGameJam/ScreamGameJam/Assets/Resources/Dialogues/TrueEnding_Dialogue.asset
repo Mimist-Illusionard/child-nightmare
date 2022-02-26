@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 872180b62a0451947a3322bedd33d47e, type: 3}
+  m_Name: TrueEnding_Dialogue
+  m_EditorClassIdentifier: 
+  Nodes:
+  - Name: Start Node
+    ID: 2e95d6d8-b4aa-48a6-a273-5107dd05e94e
+    Type: 1
+    GroupID: 
+    Position: {x: 222, y: 500}
+    Fields:
+      _data: []
+    Ports:
+    - Name: Output
+      ID: e7383402-1a46-46ea-a622-83cc858f2f7e
+      Direction: 1
+      ConnectedNodeID: 299564dd-36c2-491f-a5b2-df42be1ac9c6
+  - Name: Dialogue Node
+    ID: 299564dd-36c2-491f-a5b2-df42be1ac9c6
+    Type: 3
+    GroupID: 
+    Position: {x: 430, y: 500}
+    Fields:
+      _data:
+      - Key: Text
+        Value: The whole world is not real...
+    Ports:
+    - Name: Output
+      ID: 2634590f-9020-4014-ada4-19b5ffff0647
+      Direction: 1
+      ConnectedNodeID: 4dd3b59e-47b5-4301-bac4-0f6acaf9d403
+    - Name: Input
+      ID: a2b6fe00-5590-4bc1-b839-0f761cf076d6
+      Direction: 2
+      ConnectedNodeID: 
+  - Name: Dialogue Node
+    ID: 4dd3b59e-47b5-4301-bac4-0f6acaf9d403
+    Type: 3
+    GroupID: 
+    Position: {x: 662, y: 500}
+    Fields:
+      _data:
+      - Key: Text
+        Value: What should I do?
+    Ports:
+    - Name: Output
+      ID: 1c8dd0d5-1802-46a6-8471-533da56fbce9
+      Direction: 1
+      ConnectedNodeID: ab1e7b27-d198-4cb9-9e37-547f522f364e
+    - Name: Input
+      ID: 8dd0d0e3-3bfa-437d-a104-c450bad48928
+      Direction: 2
+      ConnectedNodeID: 
+  - Name: End Node
+    ID: ab1e7b27-d198-4cb9-9e37-547f522f364e
+    Type: 2
+    GroupID: 
+    Position: {x: 853, y: 500}
+    Fields:
+      _data: []
+    Ports:
+    - Name: Input
+      ID: 2d868812-4050-4d52-a584-af6eee279423
+      Direction: 2
+      ConnectedNodeID: 
+  Groups: []
