@@ -9,6 +9,8 @@ public class Player : Executable
 	private CharacterController _characterController;
 	private Vector3 _velocity;
 
+    private GameObject _settings;
+
 	private float _currentSpeed;
 	private float _verticalLookRotation;
 
@@ -27,7 +29,10 @@ public class Player : Executable
 		SwitchCursorMode();
 
 		_currentSpeed = _walkSpeed;
-	}
+
+        _settings = GameObject.FindGameObjectWithTag("Finish");
+        _settings.SetActive(false);
+    }
 
     public override void Execute()
 	{
@@ -37,15 +42,15 @@ public class Player : Executable
 		Move();
 		GameGravity();
 
+
         if (Input.GetKeyDown(KeyCode.Escape)) SwitchSettingsMenu();
 
     }
 
     private void SwitchSettingsMenu()
     {
-         SwitchCursorMode();
-        GameObject menu = GameObject.FindGameObjectWithTag("Finish");
-        menu.gameObject.SetActive(menu.activeSelf);
+        SwitchCursorMode();
+        _settings.gameObject.SetActive(!_settings.activeSelf);
     }
 
 	private void Look()
