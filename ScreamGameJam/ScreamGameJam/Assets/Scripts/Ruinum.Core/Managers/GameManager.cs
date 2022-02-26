@@ -1,9 +1,15 @@
 ﻿using System.Collections.Generic;
+using UnityEngine;
 
 
 public class GameManager : BaseSingleton<GameManager>
 {
     private List<IExecute> _executes = new List<IExecute>();
+
+    private void Start()
+    {
+        Application.targetFrameRate = 90;
+    }
 
     private void Update()
     {

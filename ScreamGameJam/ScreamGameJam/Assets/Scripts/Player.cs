@@ -87,7 +87,6 @@ public class Player : Executable
 
 	public void SwitchCursorMode()
 	{
-		Cursor.visible = false;
-		Cursor.lockState = CursorLockMode.Locked;
+		Cursor.visible = !Cursor.visible;
 	}
 }
