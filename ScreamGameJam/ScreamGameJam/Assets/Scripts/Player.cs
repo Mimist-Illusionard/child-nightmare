@@ -4,7 +4,7 @@
 public class Player : Executable
 {
 	[SerializeField] Transform _cameraHolder;
-	[SerializeField] private float _mouseSensitivity, _walkSpeed, _gravityForce;
+	[SerializeField] public float _mouseSensitivity, _walkSpeed, _gravityForce;
 
 	private CharacterController _characterController;
 	private Vector3 _velocity;
@@ -20,6 +20,8 @@ public class Player : Executable
     public override void Start()
     {
         base.Start();
+
+        _mouseSensitivity = FindObjectOfType<Menu>().Sens;
 
 		SwitchCursorMode();
 
