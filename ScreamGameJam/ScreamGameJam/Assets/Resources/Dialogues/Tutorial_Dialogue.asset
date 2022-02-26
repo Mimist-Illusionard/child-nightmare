@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 872180b62a0451947a3322bedd33d47e, type: 3}
+  m_Name: Tutorial_Dialogue
+  m_EditorClassIdentifier: 
+  Nodes:
+  - Name: Dialogue Node
+    ID: cbbf15ed-ad20-4c67-87c4-480ee836cfd0
+    Type: 3
+    GroupID: 
+    Position: {x: 965, y: 500}
+    Fields:
+      _data:
+      - Key: Text
+        Value: <b>WASD to move</b>
+    Ports:
+    - Name: Output
+      ID: b549cb9e-2bf2-4b2e-bc2e-69b9aeb75cb0
+      Direction: 1
+      ConnectedNodeID: 28460bc9-2ed7-4928-be73-6b16f2a5ddc5
+    - Name: Input
+      ID: 12a25565-f375-40fe-adc9-4016831a1067
+      Direction: 0
+      ConnectedNodeID: 
+  - Name: Dialogue Node
+    ID: fa4237c7-2aa2-4c37-8b68-760b1cf0dff6
+    Type: 3
+    GroupID: 
+    Position: {x: 713, y: 500}
+    Fields:
+      _data:
+      - Key: Text
+        Value: <b>Press LMB to quit bed</b>
+    Ports:
+    - Name: Output
+      ID: efabc576-7d7f-4d15-a491-318dd059293e
+      Direction: 1
+      ConnectedNodeID: cbbf15ed-ad20-4c67-87c4-480ee836cfd0
+    - Name: Input
+      ID: 77006401-9bbb-4c1e-b440-490d2a657bc8
+      Direction: 0
+      ConnectedNodeID: 
+  - Name: Start Node
+    ID: 7ed0157f-17f3-4a97-bb8a-51a90af8f9b9
+    Type: 1
+    GroupID: 
+    Position: {x: 266, y: 500}
+    Fields:
+      _data: []
+    Ports:
+    - Name: Output
+      ID: f453ad9d-79c5-495c-93a6-2610b59fae93
+      Direction: 1
+      ConnectedNodeID: bbd5d709-9ac6-480a-bd35-38d6099194f1
+  - Name: Dialogue Node
+    ID: bbd5d709-9ac6-480a-bd35-38d6099194f1
+    Type: 3
+    GroupID: 
+    Position: {x: 501, y: 500}
+    Fields:
+      _data:
+      - Key: Text
+        Value: <b>Mouse - Look </b>
+    Ports:
+    - Name: Output
+      ID: dccbfbc7-250b-41ba-b1ac-95080844cce5
+      Direction: 1
+      ConnectedNodeID: fa4237c7-2aa2-4c37-8b68-760b1cf0dff6
+    - Name: Input
+      ID: 350ea174-d3d2-407e-83ab-9c7c318c26a0
+      Direction: 0
+      ConnectedNodeID: 
+  - Name: End Node
+    ID: 28460bc9-2ed7-4928-be73-6b16f2a5ddc5
+    Type: 2
+    GroupID: 
+    Position: {x: 1209, y: 500}
+    Fields:
+      _data: []
+    Ports:
+    - Name: Input
+      ID: b313f2a9-6f4f-4e68-91f2-1c7c2f87998e
+      Direction: 0
+      ConnectedNodeID: 
+  Groups: []
