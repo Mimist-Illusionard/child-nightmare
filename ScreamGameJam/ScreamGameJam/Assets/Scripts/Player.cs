@@ -37,8 +37,16 @@ public class Player : Executable
 		Move();
 		GameGravity();
 
-		if (Input.GetKeyDown(KeyCode.Escape)) SwitchCursorMode();
-	}
+        if (Input.GetKeyDown(KeyCode.Escape)) SwitchSettingsMenu();
+
+    }
+
+    private void SwitchSettingsMenu()
+    {
+         SwitchCursorMode();
+        GameObject menu = GameObject.FindGameObjectWithTag("Finish");
+        menu.gameObject.SetActive(menu.activeSelf);
+    }
 
 	private void Look()
 	{
