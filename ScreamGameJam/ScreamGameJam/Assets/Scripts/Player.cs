@@ -21,7 +21,8 @@ public class Player : Executable
     {
         base.Start();
 
-        _mouseSensitivity = FindObjectOfType<Menu>().Sens;
+		if (FindObjectOfType<Menu>())
+			_mouseSensitivity = FindObjectOfType<Menu>().Sens;
 
 		SwitchCursorMode();
 

@@ -28,13 +28,8 @@ public class ClickEvents : MonoBehaviour
     public int Y;
 
     public GameObject prefab;
-    private GameObject canvas;
+    public GameObject canvas;
     private GameObject button;
-
-    private void Awake()
-    {
-        canvas = FindObjectOfType<Canvas>().gameObject;
-    }
 
     public void StartEvents()
     {

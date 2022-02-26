@@ -95,7 +95,7 @@ MonoBehaviour:
       Triggers: []
   - Name: tv_event
     ID: a9f0f34f-fd74-4c08-aa88-9b68da48acb0
-    Usages: 20
+    Usages: 26
     Once: 0
     Criterias: []
     Modifications: []
@@ -174,7 +174,7 @@ MonoBehaviour:
       Triggers: []
   - Name: choice_event
     ID: c6b9cf14-070a-48b9-8745-922f9722e69b
-    Usages: 24
+    Usages: 30
     Once: 0
     Criterias: []
     Modifications: []
@@ -253,7 +253,7 @@ MonoBehaviour:
       Triggers: []
   - Name: next_act_event
     ID: 1af5af0b-b523-4140-89d1-3a44cf00f19f
-    Usages: 13
+    Usages: 20
     Once: 0
     Criterias: []
     Modifications: []

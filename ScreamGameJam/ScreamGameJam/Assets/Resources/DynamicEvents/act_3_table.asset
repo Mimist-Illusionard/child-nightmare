@@ -17,11 +17,11 @@ MonoBehaviour:
     ID: bb6a04a2-25d4-4327-938d-0deae2868dd7
     Usages: 0
     Once: 0
-    Value: 1
+    Value: 0
   Events:
   - Name: all_childs_win_event
     ID: bfcf58ab-4be1-42f7-b1cb-5396c84c8a51
-    Usages: 0
+    Usages: 5123
     Once: 0
     Criterias:
     - Fact:
@@ -29,7 +29,7 @@ MonoBehaviour:
         ID: bb6a04a2-25d4-4327-938d-0deae2868dd7
         Usages: 0
         Once: 0
-        Value: 1
+        Value: 0
       Type: 2
       Value: 3
     Modifications: []
@@ -108,7 +108,7 @@ MonoBehaviour:
       Triggers: []
   - Name: on_child_win_event
     ID: cf7e06ac-e4a2-4c52-91ce-06d9c795c728
-    Usages: 1
+    Usages: 14
     Once: 0
     Criterias: []
     Modifications:
@@ -117,7 +117,7 @@ MonoBehaviour:
         ID: bb6a04a2-25d4-4327-938d-0deae2868dd7
         Usages: 0
         Once: 0
-        Value: 1
+        Value: 0
       Type: 1
       Value: 1
     Rule:
@@ -590,7 +590,7 @@ MonoBehaviour:
       Triggers: []
   - Name: complex_trigger
     ID: cb900e69-d03f-4484-9c4a-49d4230eafea
-    Usages: 1
+    Usages: 8
     Once: 0
     Criterias: []
     Modifications: []
@@ -741,7 +741,7 @@ MonoBehaviour:
           Triggers: []
   - Name: pre_good_ending_event
     ID: 44e94130-1e43-4104-b794-8467e8496f6e
-    Usages: 0
+    Usages: 2
     Once: 0
     Criterias: []
     Modifications: []
@@ -821,7 +821,7 @@ MonoBehaviour:
   Rules:
   - Name: on_all_child_win_rule
     ID: 487e810f-8ba5-44ff-bc77-6ec5817fbb41
-    Usages: 3837
+    Usages: 86882
     Once: 0
     Criterias: []
     Modifications: []
@@ -908,7 +908,7 @@ MonoBehaviour:
           ID: bb6a04a2-25d4-4327-938d-0deae2868dd7
           Usages: 0
           Once: 0
-          Value: 1
+          Value: 0
         Type: 2
         Value: 3
       Modifications: []
