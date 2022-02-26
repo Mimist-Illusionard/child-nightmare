@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 872180b62a0451947a3322bedd33d47e, type: 3}
+  m_Name: CrazyBoy_Dialogue
+  m_EditorClassIdentifier: 
+  Nodes:
+  - Name: Start Node
+    ID: 516e3529-1df8-4956-91e2-59e5317254ec
+    Type: 1
+    GroupID: 
+    Position: {x: 469, y: 500}
+    Fields:
+      _data: []
+    Ports:
+    - Name: Output
+      ID: 82c4fa73-bdab-464f-b23b-5a1b81f9d33c
+      Direction: 1
+      ConnectedNodeID: fd2dd63f-2dd1-4afa-aee6-53d8e8c3d08f
+  - Name: Dialogue Node
+    ID: fd2dd63f-2dd1-4afa-aee6-53d8e8c3d08f
+    Type: 3
+    GroupID: 
+    Position: {x: 711, y: 500}
+    Fields:
+      _data:
+      - Key: Text
+        Value: What happend here?
+    Ports:
+    - Name: Output
+      ID: 0fcedea3-9979-46a4-a0f8-53c7d87af4e1
+      Direction: 1
+      ConnectedNodeID: d9780728-ced7-4de5-88bc-24581f37aa6c
+    - Name: Input
+      ID: 6267d091-ba7d-4fd0-a2f3-944e4a6f4a15
+      Direction: 0
+      ConnectedNodeID: 
+  - Name: End Node
+    ID: d9780728-ced7-4de5-88bc-24581f37aa6c
+    Type: 2
+    GroupID: 
+    Position: {x: 958, y: 500}
+    Fields:
+      _data: []
+    Ports:
+    - Name: Input
+      ID: bfc45a74-aa46-45fe-bbf5-cc05dec03b1b
+      Direction: 0
+      ConnectedNodeID: 
+  Groups: []

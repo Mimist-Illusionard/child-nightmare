@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 872180b62a0451947a3322bedd33d47e, type: 3}
+  m_Name: FireBoy_Dialogue
+  m_EditorClassIdentifier: 
+  Nodes:
+  - Name: Start Node
+    ID: e1d4d5ba-30d6-4af3-9409-3fa8a9e91b1e
+    Type: 1
+    GroupID: 
+    Position: {x: 443, y: 500}
+    Fields:
+      _data: []
+    Ports:
+    - Name: Output
+      ID: 800486d0-fd5a-4dc6-a7c6-e2d6b42059cd
+      Direction: 1
+      ConnectedNodeID: 9d0e7b04-7380-42bb-a3db-a322fdd25177
+  - Name: Dialogue Node
+    ID: 9d0e7b04-7380-42bb-a3db-a322fdd25177
+    Type: 3
+    GroupID: 
+    Position: {x: 687, y: 500}
+    Fields:
+      _data:
+      - Key: Text
+        Value: Why all in fire?
+    Ports:
+    - Name: Output
+      ID: 371c77d1-b93d-4d3d-9970-35904f7f032f
+      Direction: 1
+      ConnectedNodeID: 2055af46-1a83-4494-b2c2-d1aa40365791
+    - Name: Input
+      ID: 72bc9a03-a805-4921-aa68-b3157e84dc4a
+      Direction: 0
+      ConnectedNodeID: 
+  - Name: End Node
+    ID: 2055af46-1a83-4494-b2c2-d1aa40365791
+    Type: 2
+    GroupID: 
+    Position: {x: 892, y: 500}
+    Fields:
+      _data: []
+    Ports:
+    - Name: Input
+      ID: 0dc7c4e7-0df1-48fe-9cde-6b103c179fe8
+      Direction: 0
+      ConnectedNodeID: 
+  Groups: []

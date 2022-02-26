@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 872180b62a0451947a3322bedd33d47e, type: 3}
+  m_Name: OnSeeRoom_Dialogue
+  m_EditorClassIdentifier: 
+  Nodes:
+  - Name: Start Node
+    ID: 111bb2b0-84bd-4464-a42f-60cd6641115c
+    Type: 1
+    GroupID: 
+    Position: {x: 457, y: 500}
+    Fields:
+      _data: []
+    Ports:
+    - Name: Output
+      ID: 2a4027a8-b9e5-4c25-9a4a-5dfb7c512c57
+      Direction: 1
+      ConnectedNodeID: dbde9dc1-f425-4262-b262-545aad7498d3
+  - Name: Dialogue Node
+    ID: dbde9dc1-f425-4262-b262-545aad7498d3
+    Type: 3
+    GroupID: 
+    Position: {x: 682, y: 500}
+    Fields:
+      _data:
+      - Key: Text
+        Value: Wait...
+    Ports:
+    - Name: Output
+      ID: c86585d4-8232-410d-bf3f-659d6ba72a81
+      Direction: 1
+      ConnectedNodeID: a4973d8d-b528-452f-bc1d-ee7cc511cdd2
+    - Name: Input
+      ID: c45874d6-3302-40e0-ae57-b15f8ab1444a
+      Direction: 0
+      ConnectedNodeID: 
+  - Name: Dialogue Node
+    ID: a4973d8d-b528-452f-bc1d-ee7cc511cdd2
+    Type: 3
+    GroupID: 
+    Position: {x: 856, y: 500}
+    Fields:
+      _data:
+      - Key: Text
+        Value: It's my room?!
+    Ports:
+    - Name: Output
+      ID: f658bd5a-e27a-4f60-9f42-eeb9801dadff
+      Direction: 1
+      ConnectedNodeID: c1c677c0-b937-40d7-832f-37822997c331
+    - Name: Input
+      ID: 62f4ac9a-0ea0-42d5-9efa-c7a0e8fa537c
+      Direction: 0
+      ConnectedNodeID: 
+  - Name: End Node
+    ID: c1c677c0-b937-40d7-832f-37822997c331
+    Type: 2
+    GroupID: 
+    Position: {x: 1043, y: 500}
+    Fields:
+      _data: []
+    Ports:
+    - Name: Input
+      ID: da65d30f-fa01-457d-86b8-7fbfb782f876
+      Direction: 0
+      ConnectedNodeID: 
+  Groups: []

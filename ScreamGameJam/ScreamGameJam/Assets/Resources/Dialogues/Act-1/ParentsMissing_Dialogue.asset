@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 872180b62a0451947a3322bedd33d47e, type: 3}
+  m_Name: ParentsMissing_Dialogue
+  m_EditorClassIdentifier: 
+  Nodes:
+  - Name: Start Node
+    ID: d960d183-fef4-47b3-9a67-9294a2b60524
+    Type: 1
+    GroupID: 
+    Position: {x: 433, y: 500}
+    Fields:
+      _data: []
+    Ports:
+    - Name: Output
+      ID: b62625f4-99e7-4476-914a-dd1f60d458e8
+      Direction: 1
+      ConnectedNodeID: 91f142ee-3a31-44ca-92aa-5a04aeeea4e1
+  - Name: End Node
+    ID: 3415056d-7112-4e0e-9eb9-5c7a03d302f8
+    Type: 2
+    GroupID: 
+    Position: {x: 869, y: 500}
+    Fields:
+      _data: []
+    Ports:
+    - Name: Input
+      ID: 45534268-ac90-44e9-9ba2-8f8493779518
+      Direction: 0
+      ConnectedNodeID: 
+  - Name: Dialogue Node
+    ID: 91f142ee-3a31-44ca-92aa-5a04aeeea4e1
+    Type: 3
+    GroupID: 
+    Position: {x: 671, y: 500}
+    Fields:
+      _data:
+      - Key: Text
+        Value: Mommy?
+    Ports:
+    - Name: Output
+      ID: 719ccc15-19f5-4881-8119-68d7e12e7fbf
+      Direction: 1
+      ConnectedNodeID: 3415056d-7112-4e0e-9eb9-5c7a03d302f8
+    - Name: Input
+      ID: 28ec7fe3-33ab-4b9e-9775-6258ca20d565
+      Direction: 0
+      ConnectedNodeID: 
+  Groups: []

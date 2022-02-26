@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 872180b62a0451947a3322bedd33d47e, type: 3}
+  m_Name: Tutorial_Dialogue
+  m_EditorClassIdentifier: 
+  Nodes:
+  - Name: Start Node
+    ID: 7ed0157f-17f3-4a97-bb8a-51a90af8f9b9
+    Type: 1
+    GroupID: 
+    Position: {x: 266, y: 500}
+    Fields:
+      _data: []
+    Ports:
+    - Name: Output
+      ID: 21d717de-44e2-433d-803a-672f6c90c65d
+      Direction: 1
+      ConnectedNodeID: bbd5d709-9ac6-480a-bd35-38d6099194f1
+  - Name: Dialogue Node
+    ID: bbd5d709-9ac6-480a-bd35-38d6099194f1
+    Type: 3
+    GroupID: 
+    Position: {x: 501, y: 500}
+    Fields:
+      _data:
+      - Key: Text
+        Value: Mouse - Look
+    Ports:
+    - Name: Output
+      ID: 4b03da72-10dd-48d1-9078-441c65582ce8
+      Direction: 1
+      ConnectedNodeID: fa4237c7-2aa2-4c37-8b68-760b1cf0dff6
+    - Name: Input
+      ID: b9d69c13-4dd2-4e67-a88b-152614b2eaf5
+      Direction: 0
+      ConnectedNodeID: 
+  - Name: Dialogue Node
+    ID: cbbf15ed-ad20-4c67-87c4-480ee836cfd0
+    Type: 3
+    GroupID: 
+    Position: {x: 910, y: 500}
+    Fields:
+      _data:
+      - Key: Text
+        Value: WASD - move
+    Ports:
+    - Name: Output
+      ID: 21d3df5e-dce2-4687-a3cb-6e500443d155
+      Direction: 1
+      ConnectedNodeID: 28460bc9-2ed7-4928-be73-6b16f2a5ddc5
+    - Name: Input
+      ID: 1cbe3c55-fc08-4466-be23-f72c3715b44c
+      Direction: 0
+      ConnectedNodeID: 
+  - Name: Dialogue Node
+    ID: fa4237c7-2aa2-4c37-8b68-760b1cf0dff6
+    Type: 3
+    GroupID: 
+    Position: {x: 702, y: 500}
+    Fields:
+      _data:
+      - Key: Text
+        Value: E - Quit bed
+    Ports:
+    - Name: Output
+      ID: f089fc04-bd4f-4014-bd8e-c252a2181970
+      Direction: 1
+      ConnectedNodeID: cbbf15ed-ad20-4c67-87c4-480ee836cfd0
+    - Name: Input
+      ID: 95338432-eac4-4e5e-b429-1395b256dfaa
+      Direction: 0
+      ConnectedNodeID: 
+  - Name: End Node
+    ID: 28460bc9-2ed7-4928-be73-6b16f2a5ddc5
+    Type: 2
+    GroupID: 
+    Position: {x: 1118, y: 500}
+    Fields:
+      _data: []
+    Ports:
+    - Name: Input
+      ID: e3773ecc-9bab-4fc7-8c0c-8ddcdf0226b1
+      Direction: 0
+      ConnectedNodeID: 
+  Groups: []

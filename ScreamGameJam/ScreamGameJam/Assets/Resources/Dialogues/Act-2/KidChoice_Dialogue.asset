@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 872180b62a0451947a3322bedd33d47e, type: 3}
+  m_Name: KidChoice_Dialogue
+  m_EditorClassIdentifier: 
+  Nodes:
+  - Name: Start Node
+    ID: 4bf2c7ee-d2e1-4fed-8c1c-403d6eed9e65
+    Type: 1
+    GroupID: 
+    Position: {x: 372, y: 500}
+    Fields:
+      _data: []
+    Ports:
+    - Name: Output
+      ID: 1228d8ae-d33a-4897-a36e-4ed253ee9817
+      Direction: 1
+      ConnectedNodeID: 9c462dbc-c79d-48a1-aa57-02dd0cab34fd
+  - Name: Dialogue Node
+    ID: 9c462dbc-c79d-48a1-aa57-02dd0cab34fd
+    Type: 3
+    GroupID: 
+    Position: {x: 580, y: 500}
+    Fields:
+      _data:
+      - Key: Text
+        Value: Again nightmare
+    Ports:
+    - Name: Output
+      ID: 0ebac7f5-f223-4790-8076-4b62261b0dea
+      Direction: 1
+      ConnectedNodeID: 51235b35-a3d2-4a24-8b5d-192e581347cc
+    - Name: Input
+      ID: fd5dc945-36cd-447d-b3bf-abc15237b0f0
+      Direction: 0
+      ConnectedNodeID: 
+  - Name: Dialogue Node
+    ID: 51235b35-a3d2-4a24-8b5d-192e581347cc
+    Type: 3
+    GroupID: 
+    Position: {x: 748, y: 500}
+    Fields:
+      _data:
+      - Key: Text
+        Value: Will they ever end?
+    Ports:
+    - Name: Output
+      ID: fefcd6e1-01c9-4f15-aabc-33c2999c931e
+      Direction: 1
+      ConnectedNodeID: b1c2f4ce-2449-48a3-93b8-8cf260b89197
+    - Name: Input
+      ID: fe1a31e8-eb67-4169-8927-1bb4337aa2e9
+      Direction: 0
+      ConnectedNodeID: 
+  - Name: End Node
+    ID: b1c2f4ce-2449-48a3-93b8-8cf260b89197
+    Type: 2
+    GroupID: 
+    Position: {x: 942, y: 500}
+    Fields:
+      _data: []
+    Ports:
+    - Name: Input
+      ID: 00e2c3be-877a-423f-a3b9-8ecb9f11e5c6
+      Direction: 0
+      ConnectedNodeID: 
+  Groups: []

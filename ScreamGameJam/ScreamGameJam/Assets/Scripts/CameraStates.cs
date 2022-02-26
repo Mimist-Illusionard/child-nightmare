@@ -12,6 +12,7 @@ public class CameraStates : Executable
 
     public bool isUsualState;
 
+    private bool Block = false;
     public override void Start()
     {
         base.Start();
@@ -20,7 +21,7 @@ public class CameraStates : Executable
 
     public override void Execute()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0) && !isUsualState) StartCoroutine(LoadUsualState());
+        if (Input.GetKeyDown(KeyCode.E) && !isUsualState && !Block) StartCoroutine(LoadUsualState());
     }
 
     public void LoadBed() => StartCoroutine(LoadBedState());
@@ -48,5 +49,10 @@ public class CameraStates : Executable
         BlackScreen.FadeOut();
         Player.enabled = true;
         isUsualState = true;
+    }
+
+    public void BlockStates()
+    {
+        Block = true; 
     }
 }

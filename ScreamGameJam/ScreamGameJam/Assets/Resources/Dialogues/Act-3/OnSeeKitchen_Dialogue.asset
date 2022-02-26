@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 872180b62a0451947a3322bedd33d47e, type: 3}
+  m_Name: OnSeeKitchen_Dialogue
+  m_EditorClassIdentifier: 
+  Nodes:
+  - Name: Start Node
+    ID: 9a0372b6-9453-498f-a8da-ec02197b5401
+    Type: 1
+    GroupID: 
+    Position: {x: 422, y: 500}
+    Fields:
+      _data: []
+    Ports:
+    - Name: Output
+      ID: c1ef5558-7ee6-4e55-92f5-e2e0dd05f46b
+      Direction: 1
+      ConnectedNodeID: 53030f0b-33c0-4d51-be30-cfe304624496
+  - Name: Dialogue Node
+    ID: 53030f0b-33c0-4d51-be30-cfe304624496
+    Type: 3
+    GroupID: 
+    Position: {x: 706, y: 500}
+    Fields:
+      _data:
+      - Key: Text
+        Value: It's my kitchen...
+    Ports:
+    - Name: Output
+      ID: fbcbcafb-81df-4819-8ce1-6e56de509998
+      Direction: 1
+      ConnectedNodeID: c4826fe4-084b-41de-a5fc-c0710478c14e
+    - Name: Input
+      ID: fd943be6-bd26-40c1-b8bc-48ff7df1439b
+      Direction: 0
+      ConnectedNodeID: 
+  - Name: End Node
+    ID: c4826fe4-084b-41de-a5fc-c0710478c14e
+    Type: 2
+    GroupID: 
+    Position: {x: 939, y: 500}
+    Fields:
+      _data: []
+    Ports:
+    - Name: Input
+      ID: fd1914ab-c8b8-46b6-a1f5-1c78f6a7e8b6
+      Direction: 0
+      ConnectedNodeID: 
+  Groups: []

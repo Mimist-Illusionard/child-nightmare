@@ -1,20 +1,25 @@
 using UnityEngine;
 
-using DG.Tweening;
-
 
 public class BlackScreen : MonoBehaviour
 {
     public CanvasGroup Screen;
     public float FadeDuration;
+    public bool isFading;
 
     public void FadeIn()
     {
-        Screen.DOFade(1f, FadeDuration);
+        if (isFading) return;
+
+        isFading = true;
+        Screen.DOFade(1f, FadeDuration, () => { isFading = false; });
     }   
     
     public void FadeOut()
     {
-        Screen.DOFade(0f, FadeDuration);
+        if (isFading) return;
+
+        isFading = true;
+        Screen.DOFade(0f, FadeDuration, () => { isFading = false; });
     }
 }
